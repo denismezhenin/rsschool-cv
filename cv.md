@@ -7,8 +7,8 @@
 + **GitHub**: [denismezhenin](https://github.com/denismezhenin)
 
 # **About me**
-I work as an engineer. I study frontend development at RS School now and I am willing to get new knowledge and skills. Learning and hard work will make me a good proffesional. 
-===
+#### I work as an engineer. I study frontend development at RS School now and I am willing to get new knowledge and skills. Learning and hard work will make me a good proffesional. 
+
 # **Skills**
 * Git
 * CSS
