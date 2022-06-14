@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    padding: 20px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+    margin: 0;
+}
+.section {
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+  }
+
+.profile
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
+    padding: 0px;
+}
+.profile-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;   
+    padding: 0px;   
+    text-transform: uppercase;
+}
+
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+}
+
+.section-list {
+    padding: 0;
+    margin: 0;
+    list-style-position:inside
+    
+}
+
+.section-item {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.link {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .link:hover {
+    color: #bd6a57f5;
+  }
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-profile-pic {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+} 
+
+.rs { 
+    height: 50px;
+    width: 100px;
+     background-image: url("assets/rs_school_js.svg");
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+
+.header {
+    background-color:#FFD700;
+}
+
+.footer {
+    background-color: #FFD700;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: auto;
+   
+}
+
+@media (max-width: 768px) {
+    .section_left .section_right {
+        width: 100%;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+}
